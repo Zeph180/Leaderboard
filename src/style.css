@@ -1,21 +1,28 @@
+.hello {
+  color: red;
+}
+
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 h1 {
-  margin-left: 2%;
+  padding-left: 4%;
 }
 
 #main-sec {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 7%;
+  justify-content: center;
 }
 
-#main-sec > * {
-  width: 48%;
+#out-put {
+  width: 45%;
+}
+
+button {
+  box-shadow: 3px 4px black;
+  float: right;
 }
 
 #left-art {
@@ -24,22 +31,22 @@ h1 {
 
 #left-art p {
   margin: 0;
-  padding: 5px 5px;
+  padding: 5px;
 }
 
 #left-art :nth-child(even) {
-  background-color:lightgray;
+  background-color: lightgray;
+}
+
+/* form {
+  width: 183px;
+} */
+
+#right-art {
+  width: 183px;
+  margin-left: 5%;
 }
 
 input {
   margin-bottom: 10px;
-}
-
-button {
-  box-shadow: 3px 4px;
-}
-
-button[type='submit'] {
-  float: right;
-  margin-right: 19%;
 }
