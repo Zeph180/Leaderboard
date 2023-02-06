@@ -1,7 +1,45 @@
-.hello {
-  color: red;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  background-color: bisque;
+h1 {
+  margin-left: 2%;
+}
+
+#main-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 7%;
+}
+
+#main-sec > * {
+  width: 48%;
+}
+
+#left-art {
+  border: 2px solid;
+}
+
+#left-art p {
+  margin: 0;
+  padding: 5px 5px;
+}
+
+#left-art :nth-child(even) {
+  background-color:lightgray;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  box-shadow: 3px 4px;
+}
+
+button[type='submit'] {
+  float: right;
+  margin-right: 19%;
 }
