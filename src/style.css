@@ -1,28 +1,21 @@
-.hello {
-  color: red;
-}
-
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 h1 {
-  padding-left: 4%;
+  margin-left: 2%;
 }
 
 #main-sec {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 7%;
 }
 
-#out-put {
-  width: 45%;
-}
-
-button {
-  box-shadow: 3px 4px black;
-  float: right;
+#main-sec > * {
+  width: 48%;
 }
 
 #left-art {
@@ -31,22 +24,22 @@ button {
 
 #left-art p {
   margin: 0;
-  padding: 5px;
+  padding: 5px 5px;
 }
 
 #left-art :nth-child(even) {
-  background-color: lightgray;
-}
-
-/* form {
-  width: 183px;
-} */
-
-#right-art {
-  width: 183px;
-  margin-left: 5%;
+  background-color:lightgray;
 }
 
 input {
   margin-bottom: 10px;
+}
+
+button {
+  box-shadow: 3px 4px;
+}
+
+button[type='submit'] {
+  float: right;
+  margin-right: 19%;
 }
