@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books <a name="about-project"></a>
+# LeaderBoard <a name="about-project"></a>
 
-**Awesome books** is a a small project to help master basic javascript concepts eg classes objects, arrays and dom manipulation
+**Leader board** is a a small project to help master basic javascript concepts eg classes objects, arrays and dom manipulation and asynchronous javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,8 +36,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Html</a></li>
-        <li><a href="#">CSS</a></li>
+    <li><a href='#'>Html</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href='#'>Javascript</a><li>
   </ul>
 </details>
 
@@ -45,19 +46,16 @@
 
 
 ### Key Features <a name="key-features"></a>
-> Describe between 1-3 key features of the application.
 
-- **Add Book**
-- **Remove Book**
-- **Display Book**
+- **Add Score**
+- **Add user name**
+- **Refresh Scores**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -77,7 +75,10 @@ In order to run this project you need:
 
 
 ```sh
- npm install
+  npm install
+  npm run build
+  npm run watch
+  npm start
 ```
 
 
@@ -90,7 +91,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Zeph180/Awesome-books.git
+  git clone https://github.com/zeph180/leaderboard.git
 ```
 -
 
@@ -103,7 +104,12 @@ Install this project with:
 
 To run the project, execute the following command:
 
-
+```sh
+  npm install
+  npm run build
+  npm run watch
+  npm start
+```
 ### Run tests
 
 To run tests, run the following command:
@@ -126,12 +132,6 @@ You can deploy this project using:
 - GitHub: [@Zeph180](https://github.com/zeph180)
 - Twitter: [@richardszeph](https://twitter.com/richardszeph)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/kigozijosephsuubi)
-
-👤 **Batoor Sohail**
-
-- GitHub: [@battorsohail](https://github.com/battorsahail)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,9 +157,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project feel free to buy me a cup of coffee.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,9 +165,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank all my coding partners
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,8 +177,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
