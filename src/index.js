@@ -8,9 +8,8 @@ const userNameIn = document.getElementById('usr-name');
 const userScoreIn = document.getElementById('usr-score');
 
 const updateScores = async () => {
-  scoreCont.innerHTML='';
+  scoreCont.innerHTML = '';
   const scores = await getData();
-  console.log('yiyoyo:', scores);
 
   scores.forEach((element) => {
     const item = document.createElement('p');
@@ -30,7 +29,6 @@ submitBtn.addEventListener('click', (e) => {
   };
   e.preventDefault();
   postData(userInput);
-  console.log(userInput);
   updateScores();
 });
 

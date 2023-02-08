@@ -28,7 +28,7 @@ h1 {
 }
 
 #left-art :nth-child(even) {
-  background-color:lightgray;
+  background-color: lightgray;
 }
 
 input {

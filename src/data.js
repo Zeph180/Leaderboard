@@ -8,7 +8,6 @@ const urlEndPoint = `https://us-central1-js-capstone-backend.cloudfunctions.net/
 const getData = async () => {
   const request = await fetch(urlEndPoint);
   const response = await request.json();
-  console.log(response);
   return response.result;
 };
 
