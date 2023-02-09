@@ -99,6 +99,9 @@ Example commands:
 
 Install this project with:
 
+```
+  git clone https://github.com/zeph180/leaderboard.gi
+```
 
 ### Usage
 
