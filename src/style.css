@@ -1,10 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: skyblue;
 }
 
 h1 {
   margin-left: 2%;
+  text-align: center;
 }
 
 #main-sec {
@@ -36,10 +38,17 @@ input {
 }
 
 button {
-  box-shadow: 3px 4px;
+  box-shadow: 1px 2px;
+  float: right;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-button[type='submit'] {
-  float: right;
-  margin-right: 19%;
+button:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+
+form {
+  width: 185px;
 }
