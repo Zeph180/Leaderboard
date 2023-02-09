@@ -9,7 +9,7 @@ const userScoreIn = document.getElementById('usr-score');
 const items = document.querySelectorAll('p');
 
 if (items.length === 0) {
-  scoreCont.innerHTML = "No score yet"
+  scoreCont.innerHTML = 'No score yet';
 }
 
 const updateScores = async () => {
