@@ -6,6 +6,11 @@ const submitBtn = document.getElementById('submit');
 const scoreCont = document.getElementById('left-art');
 const userNameIn = document.getElementById('usr-name');
 const userScoreIn = document.getElementById('usr-score');
+const items = document.querySelectorAll('p');
+
+if (items.length === 0) {
+  scoreCont.innerHTML = "No score yet"
+}
 
 const updateScores = async () => {
   scoreCont.innerHTML = '';
